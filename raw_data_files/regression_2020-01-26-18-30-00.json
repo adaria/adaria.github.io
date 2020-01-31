@@ -1,16 +1,16 @@
 {
   "bdRatesPerTest": {
     "svt-av1": {
-      "VMAF": 0.15778930791904858,
-      "PSNRY": 2.066296852212198
+      "VMAF": 0.22396126655045517,
+      "PSNRY": 1.7952342626152438
     },
     "svt-av1: 8 bit": {
       "VMAF": 0.7961260342516139,
       "PSNRY": 2.4086444155677276
     },
     "svt-av1: 10 bit": {
-      "VMAF": -1.4380525079123647,
-      "PSNRY": 1.2104279438233767
+      "VMAF": -1.2064506527024417,
+      "PSNRY": 0.26170888023403616
     }
   },
   "comparisonResultPerSource": {
@@ -3685,6 +3685,17 @@
         },
         {
           "rdPoint": {
+            "bitrateKbps": 33850.6484375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 93.96946716308594,
+              "psnrY": 35.43022003173828
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11822860"
+        },
+        {
+          "rdPoint": {
             "bitrateKbps": 11544.466796875,
             "qp": 43,
             "qualityMetrics": {
@@ -3778,8 +3789,8 @@
       },
       "bdRates": {
         "svt-av1": {
-          "VMAF": -4.332167881007798,
-          "PSNRY": 13.981379564754558
+          "VMAF": -1.5529456184887214,
+          "PSNRY": 2.596750801682468
         }
       }
     },
