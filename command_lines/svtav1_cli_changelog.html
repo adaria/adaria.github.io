@@ -1,0 +1,17 @@
+<html>
+<body>
+<h2>SVT-AV1 command line changelog</h2>
+<h3>from 01/23/2020 --------------------</h3>
+<p>Pass 1:</p>
+<p>
+SvtAv1EncApp -w &ltwidth&gt -h &ltheight&gt -scd 0 -lp 12 -enc-mode 5 -enc-mode-2p 0 -output-stat-file two_pass_stats -q &ltqp&gt -intra-period &ltkf interval&gt -n &ltnumber of frames&gt -bit-depth &ltbit depth&gt -fps-num &ltfps num&gt -fps-denom &ltfps denom&gt -i &ltinput YUV&gt -b &ltoutput bitstream&gt 
+</p>
+<p>Pass 2:</p>
+<p>
+SvtAv1EncApp -w &ltwidth&gt -h &ltheight&gt -scd 0 -lp 12 -enc-mode 0 -input-stat-file two_pass_stats -q &ltqp&gt -intra-period &ltkf interval&gt -n &ltnumber of frames&gt -bit-depth &ltbit depth&gt -fps-num &ltfps num&gt -fps-denom &ltfps denom&gt -i &ltinput YUV&gt -b &ltoutput bitstream&gt 
+</p>
+<p>&ltkf interval&gt = 4 seconds (e.g. 120 frames for 30 fps, 96 frames for 24 fps)</p>
+<p>&ltqp&gt = {20, 32, 43, 55, 59}</p>
+</body>
+</html>
+
