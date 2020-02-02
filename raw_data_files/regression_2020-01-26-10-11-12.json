@@ -1,21 +1,21 @@
 {
   "bdRatesPerTest": {
-    "svt-av1": {
+    "SVT_AV1": {
       "PSNRY": 1.7336199149458338,
       "VMAF": 0.009723896887981873
     },
-    "svt-av1: 8 bit": {
+    "SVT_AV1: 8 bit": {
       "PSNRY": 2.34516633098072,
       "VMAF": 0.5531020307787451
     },
-    "svt-av1: 10 bit": {
+    "SVT_AV1: 10 bit": {
       "PSNRY": 0.20475387485861804,
       "VMAF": -1.348721437838926
     }
   },
   "comparisonResultPerSource": {
     "STARCRAFT_60f_420": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -75,7 +75,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 6965.76806640625,
@@ -134,14 +134,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 2.3122279100291188,
           "VMAF": 4.94082820682753
         }
       }
     },
     "rush_hour_1080p25_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -201,7 +201,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 5496.6064453125,
@@ -260,14 +260,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.8848576780960986,
           "VMAF": 2.7875182751160965
         }
       }
     },
     "wikipedia_420": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -327,7 +327,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 1633.83203125,
@@ -386,14 +386,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -15.441009181538956,
           "VMAF": -17.982681801217304
         }
       }
     },
     "Netflix_Aerial_1920x1080_60fps_8": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -453,7 +453,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 21706.18359375,
@@ -512,14 +512,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.2897275238311874,
           "VMAF": 0.674975538308642
         }
       }
     },
     "DinnerScene_1920x1080_2997_10b": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -579,7 +579,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 1584.5155029296875,
@@ -638,14 +638,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -7.486170829502314,
           "VMAF": -6.636966196142424
         }
       }
     },
     "dark720p_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -705,7 +705,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 7072.0439453125,
@@ -764,14 +764,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -10.940938605289007,
           "VMAF": -16.60655033006502
         }
       }
     },
     "Netflix_Crosswalk_1920x1080_60fp": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -831,7 +831,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 7636.77587890625,
@@ -890,14 +890,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.8047623325693447,
           "VMAF": 4.243614716779387
         }
       }
     },
     "blue_sky_360p_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -957,7 +957,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 1336.9066162109375,
@@ -1016,14 +1016,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 4.060136844969908,
           "VMAF": 1.3252747622634509
         }
       }
     },
     "life_1080p30_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1083,7 +1083,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 12768.1796875,
@@ -1142,14 +1142,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 5.477821211317613,
           "VMAF": 0.24193210064322734
         }
       }
     },
     "Netflix_PierSeaside_1920x1080_60": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1209,7 +1209,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 7934.9521484375,
@@ -1268,14 +1268,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -1.6361716784567881,
           "VMAF": -4.536237206358241
         }
       }
     },
     "Netflix_FoodMarket_1920x1080_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1335,7 +1335,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 22409.775390625,
@@ -1394,14 +1394,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 8.639561013286222,
           "VMAF": 7.195738544100627
         }
       }
     },
     "kirland360p_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1461,7 +1461,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 267.7200012207031,
@@ -1520,14 +1520,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -4.394872500071923,
           "VMAF": -6.40621405596481
         }
       }
     },
     "Market3_1920x1080p_50_10b_pq_709": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -1587,7 +1587,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 12964.146484375,
@@ -1646,14 +1646,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.705146557877481,
           "VMAF": -0.9565615372509106
         }
       }
     },
     "Netflix_SquareAndTimelapse_1920x": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1713,7 +1713,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 20571.056640625,
@@ -1772,14 +1772,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 4.440746637134585,
           "VMAF": 3.1260205797688956
         }
       }
     },
     "BarScene1_1920x1080_2997_10b": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -1839,7 +1839,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 1802.7373046875,
@@ -1898,14 +1898,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -0.7168723003435407,
           "VMAF": -6.749880909054628
         }
       }
     },
     "niklas360p_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1965,7 +1965,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 1410.06396484375,
@@ -2024,14 +2024,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 4.907129983374259,
           "VMAF": 4.07848583691488
         }
       }
     },
     "MINECRAFT_60f_420": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2091,7 +2091,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 85230.8515625,
@@ -2150,14 +2150,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 4.589388740374822,
           "VMAF": 7.95531299229304
         }
       }
     },
     "ShowGirl2TeaserClip4000_1920x108": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -2217,7 +2217,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 3166.169921875,
@@ -2276,14 +2276,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -3.5229993605259025,
           "VMAF": -1.7263865767702447
         }
       }
     },
     "shields_640x360_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2343,7 +2343,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 2350.43994140625,
@@ -2402,14 +2402,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -0.4865938571406936,
           "VMAF": -0.5260704619465928
         }
       }
     },
     "thaloundeskmtg360p_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2469,7 +2469,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 841.4559936523438,
@@ -2528,14 +2528,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.42685180539839,
           "VMAF": 11.97730562315189
         }
       }
     },
     "gipsrestat720p_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2595,7 +2595,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 3521.646728515625,
@@ -2654,14 +2654,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 0.8259882634119142,
           "VMAF": -1.7350491495416787
         }
       }
     },
     "DOTA2_60f_420": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2721,7 +2721,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 16063.5283203125,
@@ -2780,14 +2780,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 1.7429223149290296,
           "VMAF": 3.6008993090784314
         }
       }
     },
     "Sintel_Dragons_1920x816_24_10b": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -2847,7 +2847,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 5205.05908203125,
@@ -2906,14 +2906,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 4.437013844669835,
           "VMAF": 0.81357544347187
         }
       }
     },
     "touchdown_pass_1080p_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2973,7 +2973,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 20522.12890625,
@@ -3032,14 +3032,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 4.135528914843278,
           "VMAF": -1.8063757999433383
         }
       }
     },
     "KristenAndSara_1280x720_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3099,7 +3099,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 3307.736083984375,
@@ -3158,14 +3158,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 4.702894052593964,
           "VMAF": 4.390424006042748
         }
       }
     },
     "vidyo1_720p_60fps_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3225,7 +3225,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 3906.751953125,
@@ -3284,14 +3284,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.441958711310611,
           "VMAF": 2.575485771834085
         }
       }
     },
     "red_kayak_360p_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3351,7 +3351,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 9238.9130859375,
@@ -3410,14 +3410,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 0.20162656726057104,
           "VMAF": -3.5123073862669663
         }
       }
     },
     "Netflix_Boat_1920x1080_60fps_8bi": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3477,7 +3477,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 29430.52734375,
@@ -3536,14 +3536,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 4.311585442093802,
           "VMAF": 3.355676169416144
         }
       }
     },
     "aspen_1080p_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3603,7 +3603,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 8531.5888671875,
@@ -3662,14 +3662,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 16.116095915812178,
           "VMAF": 16.74428743734857
         }
       }
     },
     "ducks_1920x1080_50fps_10b": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -3729,7 +3729,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 118421.921875,
@@ -3788,14 +3788,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 2.518750606802733,
           "VMAF": -1.6744445903438043
         }
       }
     },
     "ToddlerFountn_1920x1080_2997_10b": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -3855,7 +3855,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 58291.66796875,
@@ -3914,14 +3914,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.9984692925608023,
           "VMAF": 1.07101332859727
         }
       }
     },
     "speed_bag_640x360_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3981,7 +3981,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 465.7702331542969,
@@ -4040,14 +4040,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -5.250304156503482,
           "VMAF": -4.395228523298888
         }
       }
     },
     "Netflix_RollerCoaster_1280x720_6": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -4107,7 +4107,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 8285.2802734375,
@@ -4166,14 +4166,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 8.40343645584889,
           "VMAF": 6.205155216206193
         }
       }
     },
     "Netflix_DrivingPOV_1280x720_60fp": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -4233,7 +4233,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 11545.416015625,
@@ -4292,14 +4292,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.3382281303187433,
           "VMAF": 5.133968134053402
         }
       }
     },
     "Cosmos1_1920x856_BT2100_PQ_24fps": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -4359,7 +4359,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 23640.703125,
@@ -4418,14 +4418,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 6.562700093441598,
           "VMAF": 4.981075521058376
         }
       }
     },
     "Starting_1920x1080p_50_10b_pq_70": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -4485,7 +4485,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 4937.8466796875,
@@ -4544,14 +4544,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -0.8600947201050646,
           "VMAF": -0.8045043448135836
         }
       }
     },
     "RollerCoastPas_1920x1080_2997_10": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -4611,7 +4611,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 3156.779296875,
@@ -4670,14 +4670,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -1.6102441203224571,
           "VMAF": -0.9293335962778149
         }
       }
     },
     "Netflix_TunnelFlag_1920x1080_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -4737,7 +4737,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 27953.775390625,
@@ -4796,14 +4796,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.822716810522042,
           "VMAF": -21.427533836575684
         }
       }
     },
     "vidyo4_720p_60fps_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -4863,7 +4863,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 5351.81591796875,
@@ -4922,14 +4922,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 5.609852809784477,
           "VMAF": 5.121465114640178
         }
       }
     },
     "Aerial_1920x1080_2997_10b": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -4989,7 +4989,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 9621.490234375,
@@ -5048,14 +5048,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 1.4208744312735666,
           "VMAF": 0.7173190766827764
         }
       }
     },
     "ducks_take_off_1080p50_60f": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -5115,7 +5115,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 114578.6953125,
@@ -5174,14 +5174,14 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": 3.018833839311408,
           "VMAF": -0.14705886024654058
         }
       }
     },
     "KristenAndSara_1280x720_60_10b": {
-      "referenceTag": "libaom",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -5241,7 +5241,7 @@
         }
       ],
       "testRDPoints": {
-        "svt-av1": [
+        "SVT_AV1": [
           {
             "rdPoint": {
               "bitrateKbps": 3393.864013671875,
@@ -5300,7 +5300,7 @@
         ]
       },
       "bdRates": {
-        "svt-av1": {
+        "SVT_AV1": {
           "PSNRY": -5.9895269975233205,
           "VMAF": -4.289562873223995
         }
