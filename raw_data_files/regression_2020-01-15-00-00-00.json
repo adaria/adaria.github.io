@@ -15,7 +15,7 @@
   },
   "comparisonResultPerSource": {
     "STARCRAFT_60f_420": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -141,7 +141,7 @@
       }
     },
     "rush_hour_1080p25_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -267,7 +267,7 @@
       }
     },
     "wikipedia_420": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -393,7 +393,7 @@
       }
     },
     "DinnerScene_1920x1080_2997_10b": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -519,7 +519,7 @@
       }
     },
     "dark720p_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -645,7 +645,7 @@
       }
     },
     "Netflix_Aerial_1920x1080_60fps_8": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -771,7 +771,7 @@
       }
     },
     "Netflix_Crosswalk_1920x1080_60fp": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -897,7 +897,7 @@
       }
     },
     "blue_sky_360p_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1023,7 +1023,7 @@
       }
     },
     "life_1080p30_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1149,7 +1149,7 @@
       }
     },
     "Netflix_PierSeaside_1920x1080_60": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1275,7 +1275,7 @@
       }
     },
     "Netflix_FoodMarket_1920x1080_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1401,7 +1401,7 @@
       }
     },
     "Market3_1920x1080p_50_10b_pq_709": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -1527,7 +1527,7 @@
       }
     },
     "kirland360p_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1653,7 +1653,7 @@
       }
     },
     "niklas360p_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -1779,7 +1779,7 @@
       }
     },
     "BarScene1_1920x1080_2997_10b": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -1905,7 +1905,7 @@
       }
     },
     "Netflix_SquareAndTimelapse_1920x": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2031,7 +2031,7 @@
       }
     },
     "MINECRAFT_60f_420": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2157,7 +2157,7 @@
       }
     },
     "ShowGirl2TeaserClip4000_1920x108": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -2283,7 +2283,7 @@
       }
     },
     "shields_640x360_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2409,7 +2409,7 @@
       }
     },
     "thaloundeskmtg360p_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2535,7 +2535,7 @@
       }
     },
     "gipsrestat720p_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2661,7 +2661,7 @@
       }
     },
     "DOTA2_60f_420": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -2787,7 +2787,7 @@
       }
     },
     "Sintel_Dragons_1920x816_24_10b": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -2913,7 +2913,7 @@
       }
     },
     "touchdown_pass_1080p_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3039,7 +3039,7 @@
       }
     },
     "vidyo1_720p_60fps_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3165,7 +3165,7 @@
       }
     },
     "red_kayak_360p_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3291,7 +3291,7 @@
       }
     },
     "KristenAndSara_1280x720_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3417,7 +3417,7 @@
       }
     },
     "Netflix_Boat_1920x1080_60fps_8bi": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3543,7 +3543,7 @@
       }
     },
     "aspen_1080p_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -3669,7 +3669,7 @@
       }
     },
     "ducks_1920x1080_50fps_10b": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -3795,7 +3795,7 @@
       }
     },
     "ToddlerFountn_1920x1080_2997_10b": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -3921,7 +3921,7 @@
       }
     },
     "speed_bag_640x360_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -4047,7 +4047,7 @@
       }
     },
     "Netflix_RollerCoaster_1280x720_6": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -4173,7 +4173,7 @@
       }
     },
     "Cosmos1_1920x856_BT2100_PQ_24fps": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -4299,7 +4299,7 @@
       }
     },
     "Netflix_DrivingPOV_1280x720_60fp": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -4425,7 +4425,7 @@
       }
     },
     "Starting_1920x1080p_50_10b_pq_70": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -4551,7 +4551,7 @@
       }
     },
     "Netflix_TunnelFlag_1920x1080_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -4677,7 +4677,7 @@
       }
     },
     "RollerCoastPas_1920x1080_2997_10": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -4803,7 +4803,7 @@
       }
     },
     "vidyo4_720p_60fps_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -4929,7 +4929,7 @@
       }
     },
     "ducks_take_off_1080p50_60f": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 8,
       "referenceRDPoints": [
         {
@@ -5055,7 +5055,7 @@
       }
     },
     "Aerial_1920x1080_2997_10b": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
@@ -5181,7 +5181,7 @@
       }
     },
     "KristenAndSara_1280x720_60_10b": {
-      "referenceTag": "LIBAOM",
+      "referenceTag": "LIBAOM_AV1",
       "bitdepth": 10,
       "referenceRDPoints": [
         {
