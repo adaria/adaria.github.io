@@ -1,0 +1,5310 @@
+{
+  "bdRatesPerTest": {
+    "SVT_AV1: 10 bit": {
+      "VMAF": -0.2825138688861556,
+      "PSNRY": 0.23440064741858938
+    },
+    "SVT_AV1: 8 bit": {
+      "VMAF": -1.1191660678602635,
+      "PSNRY": -0.4391966309876715
+    },
+    "SVT_AV1": {
+      "VMAF": -0.8801225824390897,
+      "PSNRY": -0.24674026572873983
+    }
+  },
+  "comparisonResultPerSource": {
+    "STARCRAFT_60f_420": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 7930.39990234375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 97.64964319864909,
+              "psnrY": 50.677909978230794
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938327"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 5156.4638671875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 97.12101847330729,
+              "psnrY": 48.20002524058024
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937612"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2884.031982421875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 95.80648816426596,
+              "psnrY": 44.5200834274292
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938036"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1277.968017578125,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 91.61276283264161,
+              "psnrY": 39.58051821390788
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937877"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 759.2080078125,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 85.55608507792155,
+              "psnrY": 36.56139647165934
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937553"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 7929.7119140625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.64231859842936,
+                "psnrY": 50.69458344777425
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955020"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 5152.31201171875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 97.12018343607585,
+                "psnrY": 48.191223335266116
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954368"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2885.407958984375,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 95.79873669942221,
+                "psnrY": 44.52452011108399
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954682"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1276.43994140625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 91.61144193013509,
+                "psnrY": 39.57574640909831
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954604"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 760.52001953125,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 85.5494218190511,
+                "psnrY": 36.56401151021321
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954340"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": 0.0485309345528373,
+          "PSNRY": -0.014494636631900981
+        }
+      }
+    },
+    "rush_hour_1080p25_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 7159.97021484375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 97.1367234547933,
+              "psnrY": 43.14751332600911
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937806"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 3100.816650390625,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 93.79780731201171,
+              "psnrY": 42.305251630147296
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938056"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1470.183349609375,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 87.22451820373536,
+              "psnrY": 41.04327163696289
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938130"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 636.6599731445312,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 75.61386070251464,
+              "psnrY": 39.04113648732503
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937666"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 427.4966735839844,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 68.89958508809407,
+              "psnrY": 37.932799847920734
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937776"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 7137.4033203125,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.26369158426921,
+                "psnrY": 43.171046829223634
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954468"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 3009.97998046875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 93.71010500590006,
+                "psnrY": 42.28093007405599
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954690"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1439.026611328125,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 87.03528493245443,
+                "psnrY": 41.015334892272946
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954828"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 625.8599853515625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 75.43943990071615,
+                "psnrY": 39.01931349436442
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954394"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 421.5033264160156,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 68.68538360595703,
+                "psnrY": 37.90620492299398
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954450"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.8416611023117082,
+          "PSNRY": -1.0019164852447027
+        }
+      }
+    },
+    "wikipedia_420": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 1633.83203125,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.83888816833496,
+              "psnrY": 55.4420082728068
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937818"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 923.6599731445312,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.82081832885743,
+              "psnrY": 51.20509649912516
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937746"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 624.9840087890625,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 99.78719164530436,
+              "psnrY": 48.67811349232991
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937701"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 420.0920104980469,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 99.59402186075846,
+              "psnrY": 44.11358820597331
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938159"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 334.7080078125,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 99.31021334330241,
+              "psnrY": 41.008775075276695
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937842"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 1633.83203125,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.83888816833496,
+                "psnrY": 55.4420082728068
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954474"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 927.1119995117188,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.82208506266277,
+                "psnrY": 51.199736976623534
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954434"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 626.8040161132812,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 99.78912823994955,
+                "psnrY": 48.65798803965251
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954412"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 419.6199951171875,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 99.59411010742187,
+                "psnrY": 44.099249776204424
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954842"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 335.0199890136719,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 99.32274513244629,
+                "psnrY": 41.019171714782715
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954486"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.35332738582886103,
+          "PSNRY": 0.23981493180877944
+        }
+      }
+    },
+    "dark720p_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 7782.43603515625,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 96.34381510416667,
+              "psnrY": 46.34026673634847
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937784"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2289.219970703125,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 93.40720672607422,
+              "psnrY": 43.80495516459147
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937800"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 554.8280029296875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 90.78490842183432,
+              "psnrY": 42.4222333908081
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938318"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 148.24400329589844,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 86.49630304972331,
+              "psnrY": 40.88533999125163
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938220"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 85.86000061035156,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 81.14223098754883,
+              "psnrY": 39.55394662221273
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938096"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 7660.60009765625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 96.30543212890625,
+                "psnrY": 46.27296822865804
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954454"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1965.511962890625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 93.33791313171386,
+                "psnrY": 43.64687163035075
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954464"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 401.0559997558594,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 90.89168167114258,
+                "psnrY": 42.35554154713949
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955018"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 124.25199890136719,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 86.07098490397135,
+                "psnrY": 40.71782658894857
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954874"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 82.27999877929688,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 80.8061014811198,
+                "psnrY": 39.38346481323242
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954810"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -13.256389818291868,
+          "PSNRY": -6.622078101327844
+        }
+      }
+    },
+    "DinnerScene_1920x1080_2997_10b": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 3649.122802734375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 91.73730824788412,
+              "psnrY": 41.93500836690267
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938104"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 469.63037109375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 90.28323338826497,
+              "psnrY": 41.690161832173665
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937950"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 195.46054077148438,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 87.94325141906738,
+              "psnrY": 41.49132512410482
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937810"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 92.23576354980469,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 82.63910153706868,
+              "psnrY": 41.01166165669759
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937578"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 65.06693267822266,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 77.33851534525553,
+              "psnrY": 40.56501979827881
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938060"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 3289.15087890625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 91.69126497904459,
+                "psnrY": 41.8825984954834
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954814"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 449.3626403808594,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 90.18477401733398,
+                "psnrY": 41.68190994262695
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954642"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 194.3936004638672,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 87.8862429300944,
+                "psnrY": 41.48530337015788
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954470"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 92.08391571044922,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 82.45544153849283,
+                "psnrY": 41.011959902445476
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954352"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 65.14286041259766,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 77.5427796681722,
+                "psnrY": 40.557408269246416
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954692"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": 1.2080366726004765,
+          "PSNRY": 2.830739039107155
+        }
+      }
+    },
+    "Netflix_Aerial_1920x1080_60fps_8": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 26546.447265625,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 96.90574798583984,
+              "psnrY": 43.170528666178384
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937608"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 12461.4638671875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 94.84678370157877,
+              "psnrY": 41.27277177174886
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938334"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 6008.4482421875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 91.58662694295248,
+              "psnrY": 38.87722657521566
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937900"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2300.823974609375,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 84.06979509989421,
+              "psnrY": 35.34230365753174
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937922"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1226.9200439453125,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 75.4940813700358,
+              "psnrY": 33.02855863571167
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937516"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 25935.3671875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 96.93854649861653,
+                "psnrY": 43.121056683858235
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954366"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 12370.6318359375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 94.88744150797525,
+                "psnrY": 41.24828834533692
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955024"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 5952.7041015625,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 91.61336975097656,
+                "psnrY": 38.861653327941895
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954618"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2313.919921875,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 84.29587834676107,
+                "psnrY": 35.37463010152181
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954628"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1220.135986328125,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 75.77028477986654,
+                "psnrY": 33.0403369585673
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954320"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -1.7365322459199417,
+          "PSNRY": -0.29334990334620725
+        }
+      }
+    },
+    "Netflix_Crosswalk_1920x1080_60fp": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 10050.6796875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.34707349141439,
+              "psnrY": 45.77228997548421
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937884"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 5110.6162109375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 96.72964248657226,
+              "psnrY": 44.71063175201416
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937894"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2536.1201171875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 91.52394002278646,
+              "psnrY": 43.10579007466634
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938188"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1165.6319580078125,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 80.61458333333333,
+              "psnrY": 40.669500096639
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938336"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 793.8800048828125,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 72.66294167836507,
+              "psnrY": 39.2623716990153
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937826"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 10023.6962890625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.4342882792155,
+                "psnrY": 45.805830001831055
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954608"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 5078.9521484375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 96.70736681620279,
+                "psnrY": 44.690924898783365
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954614"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2527.85595703125,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 91.49402643839518,
+                "psnrY": 43.094431749979655
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954860"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1173.9200439453125,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 80.7169251759847,
+                "psnrY": 40.693080012003584
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955026"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 792.927978515625,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 72.72646350860596,
+                "psnrY": 39.277280235290526
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954478"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.10983194203226798,
+          "PSNRY": -0.04752622757105973
+        }
+      }
+    },
+    "blue_sky_360p_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 1332.75,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.94455337524414,
+              "psnrY": 44.46187839508057
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937792"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 676.9000244140625,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.92764167785644,
+              "psnrY": 41.67967020670573
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938166"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 350.0466613769531,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 99.49884847005208,
+              "psnrY": 38.73494504292806
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937690"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 160.13333129882812,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 93.17680117289225,
+              "psnrY": 35.024061902364096
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938146"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 105.45333099365234,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 86.96285718282064,
+              "psnrY": 32.74892339706421
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937834"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 1331.5799560546875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.94455337524414,
+                "psnrY": 44.4417698542277
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954460"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 668.6199951171875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.91821835835775,
+                "psnrY": 41.579035059611
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954848"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 346.0466613769531,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 99.53822021484375,
+                "psnrY": 38.68683853149414
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954406"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 157.48666381835938,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 93.18559125264485,
+                "psnrY": 34.987968317667644
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954836"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 104.31999969482422,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 86.83130327860515,
+                "psnrY": 32.73546346028646
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954482"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -1.6818982978666686,
+          "PSNRY": -0.006537345758950153
+        }
+      }
+    },
+    "life_1080p30_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 13847.1162109375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.59795010884604,
+              "psnrY": 44.90607159932454
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937788"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 6789.2041015625,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 98.09892489115397,
+              "psnrY": 42.20323321024577
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937928"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 3319.568115234375,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 95.06811841328938,
+              "psnrY": 39.4407080968221
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938296"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1367.947998046875,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 88.29280001322428,
+              "psnrY": 35.74162349700928
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938276"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 811.7680053710938,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 82.25642967224121,
+              "psnrY": 33.75722986857097
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937830"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 13767.8037109375,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.60004348754883,
+                "psnrY": 44.872951698303225
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954456"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 6666.9921875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 98.07711334228516,
+                "psnrY": 42.09107996622721
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954632"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 3303.64404296875,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 95.07484639485678,
+                "psnrY": 39.41932169596354
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955006"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1353.4599609375,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 88.36117540995279,
+                "psnrY": 35.72577686309815
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954896"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 807.072021484375,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 82.291636912028,
+                "psnrY": 33.74878495534261
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954480"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -1.2027637167223881,
+          "PSNRY": 0.14135380604807235
+        }
+      }
+    },
+    "Netflix_PierSeaside_1920x1080_60": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 9647.6162109375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.90340665181478,
+              "psnrY": 45.705459912618004
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938070"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 4026.464111328125,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.54866167704265,
+              "psnrY": 44.11067854563395
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938164"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1919.8399658203125,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 98.09539019266764,
+              "psnrY": 42.338578414916995
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938184"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 732.7680053710938,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 92.93525619506836,
+              "psnrY": 39.46958179473877
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937514"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 414.24798583984375,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 87.00035146077474,
+              "psnrY": 37.428824996948244
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938248"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 9559.15234375,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.90779164632161,
+                "psnrY": 45.72730000813802
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954698"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 3978.06396484375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.55256525675456,
+                "psnrY": 44.08174839019775
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954846"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1912.6639404296875,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 98.1032782236735,
+                "psnrY": 42.325788434346514
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954858"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 735.927978515625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 93.03946482340494,
+                "psnrY": 39.488748423258464
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954318"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 413.9599914550781,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 87.04236869812011,
+                "psnrY": 37.42691656748454
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954888"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.8053601005625688,
+          "PSNRY": -0.14732403987557374
+        }
+      }
+    },
+    "Netflix_FoodMarket_1920x1080_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 29639.919921875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.29924163818359,
+              "psnrY": 41.28659833272298
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938224"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 9202.1123046875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 96.56480992635092,
+              "psnrY": 40.015480041503906
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937724"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 4346.77587890625,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 92.58388811747233,
+              "psnrY": 38.84563013712565
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937678"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1871.3680419921875,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 82.83129005432129,
+              "psnrY": 36.808918444315594
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938062"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1178.416015625,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 74.0873950958252,
+              "psnrY": 35.45328159332276
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938252"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 27710.455078125,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.2908083597819,
+                "psnrY": 41.21028512318929
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954876"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 8941.2958984375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 96.57513020833333,
+                "psnrY": 39.9969783782959
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954422"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 4301.43994140625,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 92.55235163370769,
+                "psnrY": 38.834126472473145
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954400"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1862.416015625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 82.87727317810058,
+                "psnrY": 36.811618105570474
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954694"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1175.8719482421875,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 74.18965187072754,
+                "psnrY": 35.461440086364746
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954890"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -1.2396329213829382,
+          "PSNRY": -0.5813986906499924
+        }
+      }
+    },
+    "kirland360p_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 306.4519958496094,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 96.11390393575033,
+              "psnrY": 47.5043384552002
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938112"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 147.00399780273438,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 95.01140975952148,
+              "psnrY": 46.200639788309736
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937958"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 81.92400360107422,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 92.5247745513916,
+              "psnrY": 44.48180497487386
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938216"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 43.012001037597656,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 86.26152203877767,
+              "psnrY": 41.685508219401044
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937526"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 31.74799919128418,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 80.52764371236165,
+              "psnrY": 39.858096758524574
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938044"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 303.239990234375,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 96.13587964375814,
+                "psnrY": 47.50002021789551
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954818"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 144.7239990234375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 94.9229367574056,
+                "psnrY": 46.2056999206543
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954646"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 81.58000183105469,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 92.59395828247071,
+                "psnrY": 44.4762015024821
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954872"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 42.58399963378906,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 86.13697509765625,
+                "psnrY": 41.63831647237142
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954326"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 31.323999404907227,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 80.80796356201172,
+                "psnrY": 39.84824670155843
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954684"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.5772033120772013,
+          "PSNRY": -0.6134717786474453
+        }
+      }
+    },
+    "Market3_1920x1080p_50_10b_pq_709": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 14776.3603515625,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.88920173645019,
+              "psnrY": 45.544431622823076
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937846"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 7848.59326171875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.38898684183756,
+              "psnrY": 43.14965655008952
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937896"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 4079.646728515625,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 96.67333806355795,
+              "psnrY": 40.33701826731364
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937954"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1702.066650390625,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 89.20321515401204,
+              "psnrY": 36.42891025543213
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938180"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1029.4266357421875,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 81.88662490844726,
+              "psnrY": 34.392720222473145
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937644"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 14752.9130859375,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.8996966044108,
+                "psnrY": 45.58150323232015
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954488"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 7846.66650390625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.40313987731933,
+                "psnrY": 43.1351900100708
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954616"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 4085.36669921875,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 96.7310952504476,
+                "psnrY": 40.331015014648436
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954644"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1742.626708984375,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 89.5193920135498,
+                "psnrY": 36.56573664347331
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954856"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1036.7467041015625,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 82.05735448201497,
+                "psnrY": 34.4111930847168
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954382"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.5397637633156038,
+          "PSNRY": -0.16296679481214715
+        }
+      }
+    },
+    "Netflix_SquareAndTimelapse_1920x": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 23086.15234375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.91381670633952,
+              "psnrY": 44.99516671498616
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938016"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 13070.1435546875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.90508829752604,
+              "psnrY": 42.69946994781494
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937943"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 7170.912109375,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 99.19135780334473,
+              "psnrY": 39.87445335388183
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937914"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 3392.887939453125,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 90.48431180318197,
+              "psnrY": 36.13003660837809
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937910"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2253.7119140625,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 82.4026865641276,
+              "psnrY": 34.10666847229004
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938024"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 23192.3359375,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.93014005025228,
+                "psnrY": 45.05642325083415
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954672"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 13045.51171875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.90508829752604,
+                "psnrY": 42.68455333709717
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954638"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 7188.18408203125,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 99.18371187845865,
+                "psnrY": 39.87400493621826
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954624"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 3393.76806640625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 90.49323336283366,
+                "psnrY": 36.1305882136027
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954622"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2257.76806640625,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 82.47569020589192,
+                "psnrY": 34.122330029805504
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954676"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": 0.09078654209155879,
+          "PSNRY": 0.02806359476750231
+        }
+      }
+    },
+    "niklas360p_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 1520.9119873046875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 98.36168162027995,
+              "psnrY": 44.57616507212321
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937870"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 823.7919921875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 96.83030293782552,
+              "psnrY": 42.15748189290365
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937686"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 445.9960021972656,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 93.607990137736,
+              "psnrY": 39.312208366394046
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937728"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 216.3280029296875,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 86.13200480143229,
+              "psnrY": 35.71245994567871
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938008"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 148.93600463867188,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 79.66590855916341,
+              "psnrY": 33.76429144541422
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937802"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 1515.156005859375,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 98.3602803548177,
+                "psnrY": 44.567803446451826
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954600"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 820.072021484375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 96.7900166829427,
+                "psnrY": 42.13011016845703
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954404"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 445.0320129394531,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 93.63546485900879,
+                "psnrY": 39.31216017405192
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954424"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 216.88800048828125,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 86.14140485127767,
+                "psnrY": 35.72190990447998
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954668"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 148.9080047607422,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 80.12511672973633,
+                "psnrY": 33.793233172098795
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954466"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.22373474624867162,
+          "PSNRY": -0.03169166632843723
+        }
+      }
+    },
+    "BarScene1_1920x1080_2997_10b": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 3633.594482421875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 93.27523511250814,
+              "psnrY": 42.61007671356201
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937662"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 648.7152709960938,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 92.27465858459473,
+              "psnrY": 42.26068369547526
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937674"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 295.2127990722656,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 90.84165547688802,
+              "psnrY": 41.86101506551107
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938168"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 116.7272720336914,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 86.21501502990722,
+              "psnrY": 40.8791482925415
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938118"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 70.69730377197266,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 80.31704699198404,
+              "psnrY": 39.98110008239746
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938207"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 3111.924072265625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 93.25098864237468,
+                "psnrY": 42.57303676605225
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954392"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 642.7652587890625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 92.24653358459473,
+                "psnrY": 42.255444844563804
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954398"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 294.58941650390625,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 90.87929458618164,
+                "psnrY": 41.85672976175944
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954850"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 116.7272720336914,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 86.18853823343913,
+                "psnrY": 40.8731601079305
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954822"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 70.5534439086914,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 80.05828768412272,
+                "psnrY": 39.96756165822347
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954868"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.09566065660996381,
+          "PSNRY": 0.8214575543480596
+        }
+      }
+    },
+    "MINECRAFT_60f_420": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 85230.8515625,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.95144996643066,
+              "psnrY": 43.718163299560544
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938232"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 50813.375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.92594998677572,
+              "psnrY": 39.49813003540039
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937682"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 23321.6953125,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 96.65984649658203,
+              "psnrY": 35.069539896647136
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937720"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 8544.8642578125,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 82.8970583597819,
+              "psnrY": 31.508068339029947
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938048"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 5237.64013671875,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 74.69257265726725,
+              "psnrY": 30.211154905954995
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938195"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 85062.3671875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.95144996643066,
+                "psnrY": 43.777621777852374
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954880"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 50492.12890625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.92546997070312,
+                "psnrY": 39.332471974690755
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954402"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 23083.439453125,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 96.6410099029541,
+                "psnrY": 35.0086332321167
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954420"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 8441.5283203125,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 82.8899024963379,
+                "psnrY": 31.48163496653239
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954686"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 5198.4482421875,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 74.64064178466796,
+                "psnrY": 30.19936488469442
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954862"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.9708273075105689,
+          "PSNRY": 0.6346317706104943
+        }
+      }
+    },
+    "ShowGirl2TeaserClip4000_1920x108": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 4639.1064453125,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 95.62460645039876,
+              "psnrY": 42.63096497853597
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937601"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1588.4466552734375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 93.89356473286946,
+              "psnrY": 41.86871019999186
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938332"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 788.9299926757812,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 90.93010635375977,
+              "psnrY": 40.92702992757162
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937888"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 354.2166748046875,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 83.90502154032389,
+              "psnrY": 39.06154988606771
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937932"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 223.72999572753906,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 76.84666010538737,
+              "psnrY": 37.545216687520345
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937530"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 4574.12353515625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 95.65518557230631,
+                "psnrY": 42.62781174977621
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954362"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1578.550048828125,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 93.89312184651693,
+                "psnrY": 41.8633150100708
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955022"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 787.683349609375,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 90.96081199645997,
+                "psnrY": 40.92569173177083
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954610"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 355.6666564941406,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 83.97808036804199,
+                "psnrY": 39.070563252766924
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954634"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 224.5500030517578,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 77.00917129516601,
+                "psnrY": 37.548259862264
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954328"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.5123900260783243,
+          "PSNRY": -0.01220371823333899
+        }
+      }
+    },
+    "shields_640x360_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 2495.333251953125,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.45780665079752,
+              "psnrY": 42.56730321248372
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937694"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1276.4066162109375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.43452657063803,
+              "psnrY": 40.7168467203776
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937710"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 676.6866455078125,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 99.415056737264,
+              "psnrY": 38.1852118174235
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937760"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 329.14666748046875,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 95.3709098815918,
+              "psnrY": 34.493700154622395
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938152"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 214.586669921875,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 88.84197463989258,
+              "psnrY": 32.00192324320475
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937822"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 2451.47998046875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.45780665079752,
+                "psnrY": 42.53514162699381
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954408"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1274.800048828125,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.43452657063803,
+                "psnrY": 40.693114789326984
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954416"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 679.106689453125,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 99.40653177897136,
+                "psnrY": 38.188161595662436
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954442"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 329.0466613769531,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 95.38094635009766,
+                "psnrY": 34.4844383875529
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954838"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 217.92666625976562,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 89.05807215372721,
+                "psnrY": 32.08709987004598
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954476"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": 0.3155695325796293,
+          "PSNRY": 0.2529204288427733
+        }
+      }
+    },
+    "thaloundeskmtg360p_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 920.343994140625,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 97.01960652669271,
+              "psnrY": 44.761816533406574
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937790"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 450.67999267578125,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 95.96982510884602,
+              "psnrY": 43.0436482111613
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937772"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 247.4080047607422,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 93.88878313700359,
+              "psnrY": 40.981300099690756
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937698"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 122.63200378417969,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 88.46954867045085,
+              "psnrY": 37.61636994679769
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938240"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 83.69200134277344,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 82.49196993509928,
+              "psnrY": 35.31756337483724
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937918"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 909.0800170898438,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.040638478597,
+                "psnrY": 44.74447498321533
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954458"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 443.9880065917969,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 95.91755332946778,
+                "psnrY": 42.9985081354777
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954448"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 244.71200561523438,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 93.81852366129557,
+                "psnrY": 40.93292655944824
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954410"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 122.27200317382812,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 88.54633382161458,
+                "psnrY": 37.610401725769044
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954884"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 84.79199981689453,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 82.82592163085937,
+                "psnrY": 35.43281002044678
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954626"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.37656081582714274,
+          "PSNRY": -0.07650673569206123
+        }
+      }
+    },
+    "gipsrestat720p_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 3765.7734375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 97.04269536336263,
+              "psnrY": 45.008233578999835
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937736"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1372.0799560546875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 95.8718017578125,
+              "psnrY": 43.34942684173584
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937604"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 742.02001953125,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 94.10390879313151,
+              "psnrY": 41.76532694498698
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938280"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 357.2533264160156,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 89.9665138244629,
+              "psnrY": 39.14779682159424
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938078"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 233.8800048828125,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 85.39346809387207,
+              "psnrY": 37.06594835917155
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937738"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 3717.4599609375,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.0259885152181,
+                "psnrY": 44.98970839182536
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954428"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1418.2332763671875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 95.89765535990396,
+                "psnrY": 43.40900675455729
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954364"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 737.0533447265625,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 94.18917477925619,
+                "psnrY": 41.793508466084795
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954898"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 355.9266662597656,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 90.02709477742513,
+                "psnrY": 39.17384656270345
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954802"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 233.22666931152344,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 85.3048215230306,
+                "psnrY": 37.08078835805257
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954430"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.9377861734953807,
+          "PSNRY": -0.7127515422207908
+        }
+      }
+    },
+    "DOTA2_60f_420": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 17903.248046875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 97.73289477030436,
+              "psnrY": 45.928991635640465
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937926"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 9285.0556640625,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 96.21948839823405,
+              "psnrY": 43.770205116271974
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937504"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 4588.06396484375,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 93.1437489827474,
+              "psnrY": 41.176513290405275
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938244"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1831.8399658203125,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 85.5558364868164,
+              "psnrY": 37.65341313680013
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937962"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1107.4959716796875,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 77.78693288167318,
+              "psnrY": 35.598099835713704
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937874"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 18087.86328125,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.75841674804687,
+                "psnrY": 45.99199358622233
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954630"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 9276.6640625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 96.20355491638183,
+                "psnrY": 43.769585037231444
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954312"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 4590.0400390625,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 93.08286984761556,
+                "psnrY": 41.17478001912435
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954886"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1835.176025390625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 85.59649022420247,
+                "psnrY": 37.66316820780436
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954648"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1106.6400146484375,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 77.79741655985514,
+                "psnrY": 35.59539006551107
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954602"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": 0.21080918853828567,
+          "PSNRY": -0.08489033359248
+        }
+      }
+    },
+    "Sintel_Dragons_1920x816_24_10b": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 5951.0498046875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.9203249613444,
+              "psnrY": 47.44022846221924
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938114"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 3225.689697265625,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.90187670389811,
+              "psnrY": 44.65180644989014
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938202"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1709.8367919921875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 98.62993176778157,
+              "psnrY": 41.72918523152669
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937598"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 825.9359741210938,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 88.93125038146972,
+              "psnrY": 38.328013229370114
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937797"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 580.4415893554688,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 81.16725743611654,
+              "psnrY": 36.735165214538576
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938086"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 5934.716796875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.9203249613444,
+                "psnrY": 47.39625326792399
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954820"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 3208.3359375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.88299331665038,
+                "psnrY": 44.517525100708006
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954866"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1693.164794921875,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 98.57210858662923,
+                "psnrY": 41.65265986124675
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954360"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 823.0015869140625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 88.8499392191569,
+                "psnrY": 38.31861165364583
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954462"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 581.2128295898438,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 81.24950167338054,
+                "psnrY": 36.729959869384764
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954806"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": 0.12189233131068011,
+          "PSNRY": 0.9765904315179208
+        }
+      }
+    },
+    "touchdown_pass_1080p_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 23147.873046875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 96.54939651489258,
+              "psnrY": 41.01615314483642
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938177"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 5678.20556640625,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 94.21008504231771,
+              "psnrY": 38.86836331685384
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937766"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2288.811279296875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 91.37617009480795,
+              "psnrY": 37.56045653025309
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938100"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 984.8711547851562,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 84.24425659179687,
+              "psnrY": 35.50376981099446
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937732"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 592.5594482421875,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 75.55133043924967,
+              "psnrY": 33.829088401794436
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938236"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 22839.1328125,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 96.5111764272054,
+                "psnrY": 40.93853658040364
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954854"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 5462.6611328125,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 94.23722699483235,
+                "psnrY": 38.85608641306559
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954444"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2294.965087890625,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 91.4878475189209,
+                "psnrY": 37.5859468460083
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954812"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 977.0150146484375,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 84.33103497823079,
+                "psnrY": 35.4974168141683
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954426"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 600.707275390625,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 75.97468528747558,
+                "psnrY": 33.9163418451945
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954882"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -1.710200495469727,
+          "PSNRY": -0.9491268636195649
+        }
+      }
+    },
+    "red_kayak_360p_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 9306.8095703125,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.888978322347,
+              "psnrY": 41.13359177907308
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937706"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 5464.92724609375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.73513501485189,
+              "psnrY": 36.58795331319173
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937646"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2452.69921875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 85.91290143330892,
+              "psnrY": 31.909313488006593
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937892"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 734.5814208984375,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 58.01582177480062,
+              "psnrY": 28.006268374125163
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937850"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 392.58740234375,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 43.14190680185954,
+              "psnrY": 26.817401727040608
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937500"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 9299.740234375,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.888978322347,
+                "psnrY": 41.12803522745768
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954414"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 5454.40576171875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.73778165181479,
+                "psnrY": 36.55333162943522
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954384"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2448.787109375,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 86.07707354227702,
+                "psnrY": 31.902533308664957
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954612"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 733.314697265625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 58.11056652069092,
+                "psnrY": 28.006193351745605
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954490"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 393.4305725097656,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 43.13829332987468,
+                "psnrY": 26.827921644846597
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954310"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.6151049307457801,
+          "PSNRY": 0.0692817651697597
+        }
+      }
+    },
+    "KristenAndSara_1280x720_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 3885.431884765625,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 97.02461344401041,
+              "psnrY": 44.78532161712646
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938200"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1504.407958984375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 96.24238828023275,
+              "psnrY": 43.67216682434082
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938211"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 772.447998046875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 94.79336344401041,
+              "psnrY": 42.39783477783203
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937862"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 365.11199951171875,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 90.98110834757487,
+              "psnrY": 40.10995674133301
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937858"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 233.75999450683594,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 86.19879341125488,
+              "psnrY": 38.26614335378011
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938122"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 3805.248046875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.01917508443196,
+                "psnrY": 44.768218421936034
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954864"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1472.06396484375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 96.22257169087727,
+                "psnrY": 43.659726524353026
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954870"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 784.6320190429688,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 94.87693163553874,
+                "psnrY": 42.431870206197104
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954496"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 364.9599914550781,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 91.09938316345215,
+                "psnrY": 40.151188405354816
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954494"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 236.4239959716797,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 86.46779123942058,
+                "psnrY": 38.30372842152914
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954824"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -1.1920027110822518,
+          "PSNRY": -0.6493527109108665
+        }
+      }
+    },
+    "vidyo1_720p_60fps_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 4420.98388671875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 96.60275904337566,
+              "psnrY": 45.71590328216553
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937966"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1649.10400390625,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 95.30646514892578,
+              "psnrY": 44.165808296203615
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937936"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 806.10400390625,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 93.47918701171875,
+              "psnrY": 42.77560857137044
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938306"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 368.1839904785156,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 88.60692469278972,
+              "psnrY": 40.40630989074707
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937650"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 242.8000030517578,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 83.13249028523764,
+              "psnrY": 38.52503496805827
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938155"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 4381.3837890625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 96.60016810099283,
+                "psnrY": 45.700483385721846
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954650"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1712.6400146484375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 95.31475194295247,
+                "psnrY": 44.19352830251058
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954636"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 796.5999755859375,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 93.48469454447428,
+                "psnrY": 42.77346839904785
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955012"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 368.0719909667969,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 88.69378649393717,
+                "psnrY": 40.4327885945638
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954386"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 242.25599670410156,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 83.24516042073567,
+                "psnrY": 38.55688501993815
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954840"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.5240829560525739,
+          "PSNRY": -0.08113364215166508
+        }
+      }
+    },
+    "aspen_1080p_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 9894.0224609375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 98.022043355306,
+              "psnrY": 44.14941660563151
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937556"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 3263.596435546875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 94.56227289835611,
+              "psnrY": 42.408904965718584
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937620"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1373.58642578125,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 90.02138849894206,
+              "psnrY": 41.090239969889325
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938074"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 569.5744018554688,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 81.37539812723796,
+              "psnrY": 39.108694839477536
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938028"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 370.4655456542969,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 73.62944793701172,
+              "psnrY": 37.67150313059489
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937560"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 9694.6015625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.99564666748047,
+                "psnrY": 44.11151510874431
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954342"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 3102.201904296875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 94.44749120076497,
+                "psnrY": 42.345273399353026
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954372"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1343.0809326171875,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 89.98597780863444,
+                "psnrY": 41.0639466603597
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954800"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 560.7792358398438,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 81.54554812113444,
+                "psnrY": 39.120886675516765
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954678"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 369.33465576171875,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 73.61834208170573,
+                "psnrY": 37.675368054707846
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954344"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -2.0267985440969083,
+          "PSNRY": -1.0383551336870522
+        }
+      }
+    },
+    "Netflix_Boat_1920x1080_60fps_8bi": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 31330.072265625,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.92502339680989,
+              "psnrY": 43.9236385345459
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937634"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 17264.935546875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.73104324340821,
+              "psnrY": 41.47780310312907
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937512"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 9553.3603515625,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 96.5653512318929,
+              "psnrY": 38.5437931060791
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938138"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 4355.671875,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 88.08814315795898,
+              "psnrY": 34.50101340611776
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938126"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2796.696044921875,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 80.96951306660971,
+              "psnrY": 32.283883253733315
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937638"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 31343.623046875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.93880004882813,
+                "psnrY": 43.96182009379069
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954378"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 17217.248046875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.73256810506184,
+                "psnrY": 41.4674150466919
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954316"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 9543.1123046875,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 96.56596984863282,
+                "psnrY": 38.537448183695474
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954832"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 4356.759765625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 88.16347923278809,
+                "psnrY": 34.50737845102946
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954826"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2794.3759765625,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 80.99302660624186,
+                "psnrY": 32.28088665008545
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954380"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.3466042331957131,
+          "PSNRY": -0.11180395763512596
+        }
+      }
+    },
+    "ducks_1920x1080_50fps_10b": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 120614.8125,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 98.99473520914714,
+              "psnrY": 39.259925079345706
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938310"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 32165.599609375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 93.69653511047363,
+              "psnrY": 35.226161829630534
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937970"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 10886.01953125,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 84.67045631408692,
+              "psnrY": 33.12916158040365
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937814"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 3804.4267578125,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 67.19487794240315,
+              "psnrY": 30.546819814046223
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937548"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2451.61328125,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 57.797510083516435,
+              "psnrY": 29.354281616210937
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938304"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 122092.6796875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.07639376322429,
+                "psnrY": 39.36093997955322
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955014"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 32083.97265625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 93.70442810058594,
+                "psnrY": 35.22225341796875
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954652"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 10887.7802734375,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 84.67266807556152,
+                "psnrY": 33.12933667500814
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954472"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 3806.393310546875,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 67.22677014668783,
+                "psnrY": 30.547116661071776
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954338"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2453.78662109375,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 57.82460486094157,
+                "psnrY": 29.357829920450847
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955010"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.17280645391587468,
+          "PSNRY": -0.1995883094840556
+        }
+      }
+    },
+    "ToddlerFountn_1920x1080_2997_10b": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 58625.44140625,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.90347162882487,
+              "psnrY": 41.29960009256999
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937564"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 29203.2734375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.86909662882486,
+              "psnrY": 37.13856143951416
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937568"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 12828.9189453125,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 89.61136525472006,
+              "psnrY": 33.43396002451579
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938066"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 4616.57958984375,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 66.63213710784912,
+              "psnrY": 30.04752162297567
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937978"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2889.6943359375,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 55.14755160013835,
+              "psnrY": 28.816245047251382
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938300"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 58846.578125,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.92041664123535,
+                "psnrY": 41.39002672831217
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954346"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 29166.47265625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.86909662882486,
+                "psnrY": 37.13261165618896
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954348"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 12844.455078125,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 89.66384976704916,
+                "psnrY": 33.44063981374105
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954696"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 4618.0458984375,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 66.64497502644856,
+                "psnrY": 30.048541609446207
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954656"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2889.67041015625,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 55.213996442159015,
+                "psnrY": 28.818411699930827
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955008"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.07325299185202416,
+          "PSNRY": -0.13232924245080158
+        }
+      }
+    },
+    "speed_bag_640x360_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 523.3007202148438,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 98.3443551381429,
+              "psnrY": 47.238324864705405
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937838"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 273.2987060546875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 97.56323165893555,
+              "psnrY": 45.32326997121175
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937769"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 149.01898193359375,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 95.12571309407552,
+              "psnrY": 43.03031482696533
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938338"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 76.57542419433594,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 86.56282005310058,
+              "psnrY": 39.86432011922201
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938172"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 55.76423645019531,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 79.05994160970052,
+              "psnrY": 38.005544916788736
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938082"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 522.3936157226562,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 98.36542320251465,
+                "psnrY": 47.23013509114583
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954484"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 272.7352600097656,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 97.47221298217774,
+                "psnrY": 45.2821849822998
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954446"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 148.91908264160156,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 95.05574175516765,
+                "psnrY": 43.03066844940186
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955028"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 75.95604705810547,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 86.62091687520345,
+                "psnrY": 39.82493171691895
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954852"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 55.504493713378906,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 79.48558972676595,
+                "psnrY": 38.02771174112956
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954804"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.2804630660636631,
+          "PSNRY": 0.18080629555361494
+        }
+      }
+    },
+    "Netflix_RollerCoaster_1280x720_6": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 9416.6083984375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.90530662536621,
+              "psnrY": 45.17281996409098
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938012"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 4771.23193359375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.86086997985839,
+              "psnrY": 43.04826653798421
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937948"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2389.951904296875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 98.13082860310872,
+              "psnrY": 40.50819835662842
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937757"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1106.303955078125,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 90.11758168538411,
+              "psnrY": 37.317249870300294
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937584"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 743.72802734375,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 82.68081639607747,
+              "psnrY": 35.48676973978679
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937986"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 9434.9921875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.91940994262696,
+                "psnrY": 45.22587483723958
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954670"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 4756.76806640625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.8626865386963,
+                "psnrY": 43.033058420817056
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954640"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2384.583984375,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 98.18244323730468,
+                "psnrY": 40.5157382329305
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954440"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1102.83203125,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 90.15295155843098,
+                "psnrY": 37.31119340260823
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954356"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 742.6480102539062,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 82.70117645263672,
+                "psnrY": 35.485164896647134
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954660"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.6563718889785575,
+          "PSNRY": -0.2692207709789285
+        }
+      }
+    },
+    "Cosmos1_1920x856_BT2100_PQ_24fps": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 24673.4375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.44293492635092,
+              "psnrY": 42.144701894124346
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937540"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 10680.0673828125,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 95.88460375467936,
+              "psnrY": 38.5830135345459
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937714"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 4212.10546875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 86.19828974405924,
+              "psnrY": 35.79183006286621
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938052"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1532.3583984375,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 67.38400147755941,
+              "psnrY": 32.977356847127275
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938134"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 915.3215942382812,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 56.09990825653076,
+              "psnrY": 31.63332675298055
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937658"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 24568.53515625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.42802848815919,
+                "psnrY": 42.116915194193524
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954334"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 10341.50390625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 95.70278333028158,
+                "psnrY": 38.44729162851969
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954418"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 4080.575927734375,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 85.97601979573568,
+                "psnrY": 35.73771642049154
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954688"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1514.9727783203125,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 67.37613118489584,
+                "psnrY": 32.96760495503744
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954830"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 911.4240112304688,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 56.03300488789876,
+                "psnrY": 31.624091561635336
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954390"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -1.0702423500616898,
+          "PSNRY": -0.1945785940515865
+        }
+      }
+    },
+    "Netflix_DrivingPOV_1280x720_60fp": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 12644.583984375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.70161488850911,
+              "psnrY": 43.14171848297119
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937536"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 6112.7998046875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 98.83392168680827,
+              "psnrY": 40.85520998636881
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937654"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2988.416015625,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 96.56511472066244,
+              "psnrY": 38.26892820994059
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938292"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1289.0400390625,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 90.86661465962727,
+              "psnrY": 35.07369848887126
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938004"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 815.3759765625,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 85.39023005167643,
+              "psnrY": 33.218544737497965
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937742"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 12550.0,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.72046661376953,
+                "psnrY": 43.108420054117836
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954332"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 6041.01611328125,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 98.83648363749187,
+                "psnrY": 40.78507347106934
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954388"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2957.055908203125,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 96.56826464335124,
+                "psnrY": 38.24938144683838
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955004"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1280.5999755859375,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 90.95444501241049,
+                "psnrY": 35.091745122273764
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954666"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 813.52001953125,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 85.41159324645996,
+                "psnrY": 33.22758986155192
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954432"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -1.289958475934505,
+          "PSNRY": -0.22463474119558402
+        }
+      }
+    },
+    "Starting_1920x1080p_50_10b_pq_70": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 5587.14013671875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 96.96582310994467,
+              "psnrY": 47.25983994801839
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937573"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2715.719970703125,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 96.03828722635905,
+              "psnrY": 45.889008394877116
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937534"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1505.52001953125,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 94.40206871032714,
+              "psnrY": 44.15863666534424
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938108"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 660.2333374023438,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 88.868341700236,
+              "psnrY": 40.592323303222656
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938020"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 379.0,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 81.28019536336264,
+              "psnrY": 37.75782489776611
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938284"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 5593.56689453125,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 96.98636004130046,
+                "psnrY": 47.28193473815918
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954350"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2731.360107421875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 96.06074447631836,
+                "psnrY": 45.91909325917562
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954330"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1501.9666748046875,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 94.38933169047037,
+                "psnrY": 44.162888272603354
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954816"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 661.7866821289062,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 88.8915013631185,
+                "psnrY": 40.613510068257646
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954674"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 379.90667724609375,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 81.52861264546712,
+                "psnrY": 37.77565498352051
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955000"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.22908337995974914,
+          "PSNRY": -0.3735315351707902
+        }
+      }
+    },
+    "Netflix_TunnelFlag_1920x1080_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 32679.880859375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 99.92434336344401,
+              "psnrY": 43.154401842753096
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937544"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 16644.0390625,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 99.91806004842122,
+              "psnrY": 41.0472801844279
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937518"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 8566.3603515625,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 99.90541661580404,
+              "psnrY": 38.70408000946045
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938142"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 3987.5439453125,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 99.85511830647786,
+              "psnrY": 35.893439865112306
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937990"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2768.632080078125,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 99.75470008850098,
+              "psnrY": 34.45997994740804
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937882"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 32719.623046875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 99.94106330871583,
+                "psnrY": 43.2069034576416
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954336"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 16531.6796875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 99.91806004842122,
+                "psnrY": 41.01569843292236
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954322"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 8536.400390625,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 99.90541661580404,
+                "psnrY": 38.69121316274007
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954834"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 3989.3759765625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 99.85511830647786,
+                "psnrY": 35.8931500116984
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954662"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2773.575927734375,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 99.75418167114258,
+                "psnrY": 34.4740982691447
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954606"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.4200386499036757,
+          "PSNRY": -0.05551150691709417
+        }
+      }
+    },
+    "RollerCoastPas_1920x1080_2997_10": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 4108.80322265625,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 97.22885500590006,
+              "psnrY": 45.320180066426595
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937750"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1752.923095703125,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 96.65237032572428,
+              "psnrY": 44.40960515340169
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937588"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 961.4705200195312,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 95.58032824198405,
+              "psnrY": 43.036415100097656
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937854"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 424.2757263183594,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 91.74014320373536,
+              "psnrY": 40.11218687693278
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937974"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 262.0859069824219,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 86.93612658182779,
+              "psnrY": 37.86220149993896
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937672"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 4076.291748046875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.22852452596028,
+                "psnrY": 45.32869008382161
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954436"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1745.5504150390625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 96.6506399790446,
+                "psnrY": 44.40789845784505
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954358"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 961.4146118164062,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 95.57583669026693,
+                "psnrY": 43.035223452250165
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954492"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 428.4635314941406,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 91.75186653137207,
+                "psnrY": 40.14292837778727
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954654"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 261.7622375488281,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 86.93970476786295,
+                "psnrY": 37.865318361918135
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954396"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": 0.40471903511749563,
+          "PSNRY": -0.029832870312851423
+        }
+      }
+    },
+    "vidyo4_720p_60fps_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 6106.9677734375,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 97.80877990722657,
+              "psnrY": 44.4192315419515
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938032"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2106.751953125,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 96.57003479003906,
+              "psnrY": 42.942413266499834
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937904"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 997.239990234375,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 94.65783818562825,
+              "psnrY": 41.61577326456706
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938256"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 445.6319885253906,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 89.72747510274252,
+              "psnrY": 39.344221433003746
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938288"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 286.5119934082031,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 84.38866500854492,
+              "psnrY": 37.65176016489665
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937980"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 6124.65576171875,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.81320508321126,
+                "psnrY": 44.42744992574056
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954680"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2050.575927734375,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 96.54887886047364,
+                "psnrY": 42.92139155069987
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954620"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 987.27197265625,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 94.71767692565918,
+                "psnrY": 41.617188135782875
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954892"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 442.9679870605469,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 89.68025639851888,
+                "psnrY": 39.345656649271646
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955002"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 285.0880126953125,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 84.15814832051595,
+                "psnrY": 37.634535026550296
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954658"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.685487183032607,
+          "PSNRY": -0.8458954819732467
+        }
+      }
+    },
+    "ducks_take_off_1080p50_60f": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 8,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 116686.8828125,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 98.80636177062988,
+              "psnrY": 38.999894841512045
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938314"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 33247.46484375,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 93.76491508483886,
+              "psnrY": 35.2281166712443
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938228"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 10958.5537109375,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 84.70206794738769,
+              "psnrY": 33.09657510121664
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937616"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 3831.046630859375,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 67.43967507680257,
+              "psnrY": 30.533798440297446
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937780"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2463.800048828125,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 57.92381362915039,
+              "psnrY": 29.341331672668456
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938270"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 118210.4765625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 98.89322331746419,
+                "psnrY": 39.10179335276286
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11955016"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 33131.47265625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 93.74152463277181,
+                "psnrY": 35.22334671020508
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954878"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 10950.6201171875,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 84.72744979858399,
+                "psnrY": 33.096975008646645
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954370"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 3818.373291015625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 67.38820171356201,
+                "psnrY": 30.527055072784425
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954452"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2461.89990234375,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 57.956511688232425,
+                "psnrY": 29.344954999287925
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954894"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.18005521293606996,
+          "PSNRY": -0.2637992264745703
+        }
+      }
+    },
+    "Aerial_1920x1080_2997_10b": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 9436.85546875,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 96.45690676371257,
+              "psnrY": 43.61986516316732
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937522"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 4919.80419921875,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 95.28756675720214,
+              "psnrY": 41.714684867858885
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937630"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 2836.171875,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 93.1069766998291,
+              "psnrY": 39.48930314381917
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937866"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1217.8101806640625,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 86.31159133911133,
+              "psnrY": 35.27619825998942
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937994"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 651.4365844726562,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 77.7447733561198,
+              "psnrY": 32.295350042978924
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937752"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 9228.244140625,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 96.46715354919434,
+                "psnrY": 43.57841313680013
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954324"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 4889.54638671875,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 95.29399007161459,
+                "psnrY": 41.69264520009359
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954376"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 2783.136962890625,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 93.04063835144044,
+                "psnrY": 39.40902150472005
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954498"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1196.3516845703125,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 86.09494031270346,
+                "psnrY": 35.19537817637126
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954664"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 646.3216552734375,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 77.91399828592937,
+                "psnrY": 32.26754179000854
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954438"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -0.4135138608788336,
+          "PSNRY": -0.14874360677588072
+        }
+      }
+    },
+    "KristenAndSara_1280x720_60_10b": {
+      "referenceTag": "SVT_AV1",
+      "bitdepth": 10,
+      "referenceRDPoints": [
+        {
+          "rdPoint": {
+            "bitrateKbps": 3728.751953125,
+            "qp": 20,
+            "qualityMetrics": {
+              "vmaf": 97.13460985819499,
+              "psnrY": 45.04890664418539
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937582"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 1429.0479736328125,
+            "qp": 32,
+            "qualityMetrics": {
+              "vmaf": 96.34557813008627,
+              "psnrY": 43.86027641296387
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937510"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 755.2000122070312,
+            "qp": 43,
+            "qualityMetrics": {
+              "vmaf": 94.95075314839681,
+              "psnrY": 42.561123593648276
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938092"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 351.8320007324219,
+            "qp": 55,
+            "qualityMetrics": {
+              "vmaf": 90.75551439921061,
+              "psnrY": 40.12124519348144
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11938162"
+        },
+        {
+          "rdPoint": {
+            "bitrateKbps": 231.39199829101562,
+            "qp": 59,
+            "qualityMetrics": {
+              "vmaf": 86.03686358133952,
+              "psnrY": 38.320658111572264
+            }
+          },
+          "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11937626"
+        }
+      ],
+      "testRDPoints": {
+        "SVT_AV1": [
+          {
+            "rdPoint": {
+              "bitrateKbps": 3652.8720703125,
+              "qp": 20,
+              "qualityMetrics": {
+                "vmaf": 97.12887789408366,
+                "psnrY": 45.03363170623779
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954354"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 1383.6080322265625,
+              "qp": 32,
+              "qualityMetrics": {
+                "vmaf": 96.34899889628092,
+                "psnrY": 43.82868684132894
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954314"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 752.6160278320312,
+              "qp": 43,
+              "qualityMetrics": {
+                "vmaf": 95.01428998311361,
+                "psnrY": 42.558678436279294
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954808"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 353.33599853515625,
+              "qp": 55,
+              "qualityMetrics": {
+                "vmaf": 90.92574323018393,
+                "psnrY": 40.154151852925615
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954844"
+          },
+          {
+            "rdPoint": {
+              "bitrateKbps": 233.26400756835938,
+              "qp": 59,
+              "qualityMetrics": {
+                "vmaf": 86.54280166625976,
+                "psnrY": 38.38933512369792
+              }
+            },
+            "jobURL": "https://mcezen-archerintg.dyntest.netflix.net:7002/archer/11954374"
+          }
+        ]
+      },
+      "bdRates": {
+        "SVT_AV1": {
+          "VMAF": -2.018100982990456,
+          "PSNRY": -0.5622045846586099
+        }
+      }
+    }
+  }
+}
